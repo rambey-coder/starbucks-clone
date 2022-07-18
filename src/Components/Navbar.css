@@ -1,0 +1,13 @@
+.nav-container {
+    background: #fff;
+    filter: drop-shadow(2px 0 5px gray);
+}
+
+.nav {
+    width: 95%;
+    margin: auto;
+}
+
+.nav-card1 > img {
+    width: 50px;
+}
