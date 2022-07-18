@@ -14,9 +14,9 @@ function App() {
       <Router>
       <Navbar />
         <Routes>
-          <Route path='/reward' element={<Rewards/>}/>
+          <Route path='/rewards' element={<Rewards/>}/>
           <Route path='/menu' element={<Menu/>}/>
-          <Route path='/card' element={<Cards/>}/>
+          <Route path='/cards' element={<Cards/>}/>
           <Route path='/store' element={<Store/>}/>
           <Route path='/signin' element={<SignIn/>}/>
           <Route path='/join' element={<Join/>}/>
