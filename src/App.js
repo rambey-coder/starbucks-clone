@@ -1,4 +1,5 @@
-import Navbar from './Components/Navbar';
+// import Navbar from './Components/Navbar';
+import Home from './Components/Home';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Rewards from './Components/Rewards';
 import Menu from './Components/Menu';
@@ -11,7 +12,8 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <Navbar />
+      {/* <Navbar /> */}
+      <Home />
         <Routes>
           <Route path='/rewards' element={<Rewards/>}/>
           <Route path='/menu' element={<Menu/>}/>

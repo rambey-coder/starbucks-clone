@@ -7,7 +7,9 @@ const Navbar = () => {
     <div className='nav-container'>
         <div className="nav">
             <div className="nav-card1">
+                <Link to='' className='logo'>
                 <img src="./assets/bucks-logo.svg" alt="logo" />
+                </Link>
                 <div className="links">
                     <NavLink to='/menu' className={({ isActive }) => isActive ? 'link active' : 'link'}>MENU</NavLink>
                     <NavLink to='/rewards' className='link'>REWARDS</NavLink>

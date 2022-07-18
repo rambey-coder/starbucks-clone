@@ -18,6 +18,10 @@
     gap: 3rem;
 }
 
+.logo {
+    width: 50px;
+}
+
 .links {
     display: flex;
     align-items: center;
