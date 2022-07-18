@@ -9,9 +9,9 @@ const Navbar = () => {
             <div className="nav-card1">
                 <img src="./assets/bucks-logo.svg" alt="logo" />
                 <div className="links">
-                    <NavLink to='/menu'>MENU</NavLink>
-                    <NavLink to='/rewards'>REWARDS</NavLink>
-                    <NavLink to='/cards'>GIFT CARDS</NavLink>
+                    <NavLink to='/menu' className='link'>MENU</NavLink>
+                    <NavLink to='/rewards' className='link'>REWARDS</NavLink>
+                    <NavLink to='/cards' className='link'>GIFT CARDS</NavLink>
                 </div>
             </div>
             <div className="nav-card2"></div>
