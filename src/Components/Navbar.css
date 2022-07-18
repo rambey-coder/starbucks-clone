@@ -1,13 +1,74 @@
 .nav-container {
     background: #fff;
-    filter: drop-shadow(2px 0 5px gray);
+    filter: drop-shadow(2px 0 5px rgba(194, 191, 191, 0.651));
 }
 
 .nav {
-    width: 95%;
+    width: 90%;
     margin: auto;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-card1, .nav-card2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.link {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1.3px;
+}
+
+.link:hover {
+    color: #008248;
+    transition: .5s ease;
 }
 
 .nav-card1 > img {
     width: 50px;
+}
+
+.sign-in {
+    color: #000;
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 30px;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.sign-in:hover {
+    background: #f1f8f6;
+    transition: .5s ease;
+}
+
+.join-now {
+    color: #f3f1e7;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 30px;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.join-now:hover {
+    background: rgba(0, 0, 0, 0.671);
+    transition: .5s ease;
 }
