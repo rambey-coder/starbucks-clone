@@ -28,6 +28,12 @@
     color: rgba(0, 0, 0, 0.753);
     font-weight: 400;
     padding: 15px 0;
+    cursor: pointer;
+}
+
+.foot-list > ul > li:hover {
+    color: #000000;
+    transition: .3s ease;
 }
 
 .foot-content {
