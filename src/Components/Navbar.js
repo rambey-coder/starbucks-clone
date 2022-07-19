@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='nav-container'>
         <div className="nav">
             <div className="nav-card1">
-                <Link to='' className='logo'>
+                <Link to='/' className='logo'>
                 <img src="./assets/bucks-logo.svg" alt="logo" />
                 </Link>
                 <div className="links">

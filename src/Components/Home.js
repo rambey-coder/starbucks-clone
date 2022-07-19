@@ -5,7 +5,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div>
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="section-container">
             <div className="lime-container">
                 <div className="txt-container">
