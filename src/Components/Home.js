@@ -34,9 +34,9 @@ const Home = () => {
             </div>
         </div>
 
+        <div className="footer">
         <div className="footer-container">
-            <div className="foot-content">
-                <div className="about">
+                <div className="foot-list">
                     <h4>About</h4>
                     <ul>
                         <li>Our Company</li>
@@ -48,7 +48,7 @@ const Home = () => {
                     </ul>
                 </div>
 
-                <div className="career">
+                <div className="foot-list">
                     <h4>Careers</h4>
                     <ul>
                         <li>Culture and Values</li>
@@ -60,7 +60,7 @@ const Home = () => {
                     </ul>
                 </div>
 
-                <div className="career">
+                <div className="foot-list">
                     <h4>Social Impact</h4>
                     <ul>
                         <li>People</li>
@@ -69,7 +69,7 @@ const Home = () => {
                     </ul>
                 </div>
 
-                <div className="partners">
+                <div className="foot-list">
                     <h4>For Business Partners</h4>
                     <ul>
                         <li>Landloard Support Center</li>
@@ -79,7 +79,7 @@ const Home = () => {
                     </ul>
                 </div>
 
-                <div className="partners">
+                <div className="foot-list">
                     <h4>Order and Pickup</h4>
                     <ul>
                         <li>Order on the App</li>
@@ -89,8 +89,26 @@ const Home = () => {
                         <li>Explore and Find Coffee for Home</li>
                     </ul>
                 </div>
-            </div>
         </div>
+        <div className="foot-content">
+            <div className="icons">
+            <i className="fa-brands fa-spotify"></i>
+            <i className="fa-brands fa-facebook"></i>
+            <i className="fa-brands fa-pinterest"></i>
+            <i className="fa-brands fa-instagram-square"></i>
+            <i className="fa-brands fa-youtube"></i>
+            <i className="fa-brands fa-twitter"></i>
+            </div>
+            <div className="terms">
+                <p>Privacy Policy</p>
+                <p>Terms Of Use</p>
+                <p>CA Supply Chain Act</p>
+                <p>Cookie Preferences</p>
+            </div>
+            <p>© 2022 Starbucks Coffee Company. All rights reserved.</p>
+        </div>
+        </div>
+        
     </div>
   )
 }
