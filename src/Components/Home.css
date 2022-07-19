@@ -1,11 +1,21 @@
-.home-container {
-    margin-top: 3rem;
+.section-container {
+    filter: drop-shadow(2px 0 5px rgba(194, 191, 191, 0.651));
+    padding-bottom: 20px;
 }
 
 .lime-container {
     display: flex;
     width: 100%;
+    margin-top: 3rem;
     background: #FA91AA;
+}
+
+.cake-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin-top: 3rem;
+    background: #007042;
 }
 
 .txt-container {
@@ -15,7 +25,7 @@
     justify-content: center;
 }
 
-.inner-txt {
+.inner-txt, .cake-inner-txt {
     width: 70%;
     margin: auto;
     text-align: center;
@@ -45,6 +55,33 @@
 
 .inner-txt > a:hover {
     background: #1e393238;
+    transition: .5s ease;
+}
+
+.cake-inner-txt > h1 {
+    color: #f1f8f6;
+    font-size: 3.5em;
+}
+
+.cake-inner-txt > p {
+    color: #f1f8f6;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.cake-inner-txt > a {
+    color: #f1f8f6;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: transparent;
+    border: #f1f8f6 1px solid;
+    padding: 6px 15px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.cake-inner-txt > a:hover {
+    background: #f1f8f638;
     transition: .5s ease;
 }
 
