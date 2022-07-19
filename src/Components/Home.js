@@ -95,7 +95,7 @@ const Home = () => {
             <i className="fa-brands fa-spotify"></i>
             <i className="fa-brands fa-facebook"></i>
             <i className="fa-brands fa-pinterest"></i>
-            <i className="fa-brands fa-instagram-square"></i>
+            <i className="fa-brands fa-instagram"></i>
             <i className="fa-brands fa-youtube"></i>
             <i className="fa-brands fa-twitter"></i>
             </div>
