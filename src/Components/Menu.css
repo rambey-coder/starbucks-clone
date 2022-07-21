@@ -1,0 +1,26 @@
+.menu-nav {
+    background: #F9F9F9;
+    padding: 15px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.menu-nav > ul {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    width: 80%;
+    margin-left: 12%;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu-nav > ul > li {
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.menu-nav > ul > li:nth-child(1) {
+    text-decoration: underline;
+}
