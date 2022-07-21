@@ -63,6 +63,44 @@ const Menu = () => {
           </span>
           </div>
         </div>
+
+        <div className="type-list">
+          <div className="list-type">
+          <h1>Food</h1>
+          <ul>
+            <li>Hot Breakfast</li>
+            <li>Bakery</li>
+            <li>Lunch</li>
+            <li>Snacks & Sweets</li>
+            <li>Oatmeal & Yoghurt</li>
+          </ul>
+          </div>
+          <div className="list-imgs">
+          <span>
+          <img src='./assets/hot-breakfast.webp' alt='hot coffee'/>
+          <p>Hot Breakfast</p>
+          </span>
+
+          <span>
+          <img src='./assets/bakery.webp' alt='hot coffee'/>
+          <p>Bakery</p>
+          </span>
+
+          <span>
+          <img src='./assets/lunch.webp' alt='hot coffee'/>
+          <p>Lunch</p>
+          </span>
+
+          <span>
+          <img src='./assets/snacks.webp' alt='hot coffee'/>
+          <p>Snacks & Sweets</p>
+          </span>
+          <span>
+          <img src='./assets/oatmeal.webp' alt='hot coffee'/>
+          <p>Oatmeal & Yoghurt</p>
+          </span>
+          </div>
+        </div>
         <div className="menu-list"></div>
       </div>
       </div>
