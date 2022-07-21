@@ -101,6 +101,27 @@ const Menu = () => {
           </span>
           </div>
         </div>
+
+        <div className="type-list">
+          <div className="list-type">
+          <h1>At Home Coffee</h1>
+          <ul>
+            <li>Whole Bean</li>
+            <li>VIA® Instant</li>
+          </ul>
+          </div>
+          <div className="list-imgs">
+          <span>
+          <img src='./assets/whole-bean.jpg' alt='hot coffee'/>
+          <p>Whole Bean</p>
+          </span>
+
+          <span>
+          <img src='./assets/instant.webp' alt='hot coffee'/>
+          <p>VIA® Instant</p>
+          </span>
+          </div>
+        </div>
         <div className="menu-list"></div>
       </div>
       </div>

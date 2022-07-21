@@ -38,6 +38,10 @@
     width: 30%;
 }
 
+.list-type > h1 {
+    font-weight: 500;
+}
+
 .list-type > ul {
     padding: 0;
 }
