@@ -122,6 +122,72 @@ const Menu = () => {
           </span>
           </div>
         </div>
+
+        <div className="type-list">
+          <div className="list-type">
+          <h1>Merchandise</h1>
+          <ul>
+            <li>Cold Cups</li>
+            <li>Tumblers</li>
+            <li>Mugs</li>
+            <li>Water Bottles</li>
+            <li>Others</li>
+          </ul>
+          </div>
+          <div className="list-imgs">
+          <span>
+          <img src='./assets/cold-cup.webp' alt='hot coffee'/>
+          <p>Cold Cup</p>
+          </span>
+
+          <span>
+          <img src='./assets/tumbler.webp' alt='hot coffee'/>
+          <p>Tumbler</p>
+          </span>
+
+          <span>
+          <img src='./assets/mug.webp' alt='hot coffee'/>
+          <p>Mugs</p>
+          </span>
+
+          <span>
+          <img src='./assets/water-bottle.webp' alt='hot coffee'/>
+          <p>Water bottles</p>
+          </span>
+
+          <span>
+          <img src='./assets/other.webp' alt='hot coffee'/>
+          <p>Others</p>
+          </span>
+          </div>
+        </div>
+
+        <div className="type-list">
+          <div className="list-type">
+          <h1>Gift Cards</h1>
+          <ul>
+            <li>Happy Birthday</li>
+            <li>Thank You</li>
+            <li>Traditional</li>
+          </ul>
+          </div>
+          <div className="list-imgs">
+          <span>
+          <img src='./assets/happy-birthday.webp' alt='hot coffee'/>
+          <p>Happy Birthday</p>
+          </span>
+
+          <span>
+          <img src='./assets/thank-you.webp' alt='hot coffee'/>
+          <p>thank You</p>
+          </span>
+
+          <span>
+          <img src='./assets/traditional.webp' alt='hot coffee'/>
+          <p>Traditional</p>
+          </span>
+          </div>
+        </div>
         <div className="menu-list"></div>
       </div>
       </div>
