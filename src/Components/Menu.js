@@ -30,7 +30,37 @@ const Menu = () => {
           </ul>
           </div>
           <div className="list-imgs">
-            <img src='./assets/hot-coffee.webp' alt='hot coffee'/>
+          <span>
+          <img src='./assets/hot-coffee.webp' alt='hot coffee'/>
+          <p>Hot Coffees</p>
+          </span>
+
+          <span>
+          <img src='./assets/hot-tea.webp' alt='hot coffee'/>
+          <p>Hot Teas</p>
+          </span>
+
+          <span>
+          <img src='./assets/hot-drinks.webp' alt='hot coffee'/>
+          <p>Hot Drinks</p>
+          </span>
+
+          <span>
+          <img src='./assets/beverages.webp' alt='hot coffee'/>
+          <p>Frappuccino® Blended Beverages</p>
+          </span>
+          <span>
+          <img src='./assets/cold-coffee.webp' alt='hot coffee'/>
+          <p>Cold Coffees</p>
+          </span>
+          <span>
+          <img src='./assets/iced-tea.webp' alt='hot coffee'/>
+          <p>Iced Teas</p>
+          </span>
+          <span>
+          <img src='./assets/cold-drink.webp' alt='hot coffee'/>
+          <p>Cold Drinks</p>
+          </span>
           </div>
         </div>
         <div className="menu-list"></div>

@@ -24,3 +24,50 @@
 .menu-nav > ul > li:nth-child(1) {
     text-decoration: underline;
 }
+
+.type-list {
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+    margin-top: 4rem;
+    width: 80%;
+    margin-left: 12%;
+}
+
+.list-type {
+    width: 30%;
+}
+
+.list-type > ul {
+    padding: 0;
+}
+
+.list-type > ul > li {
+    list-style-type: none;
+    color: rgba(0,0,0,.58);
+    font-weight: 500;
+    font-size: 17px;
+    padding: 20px 0;
+}
+
+.list-imgs {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.list-imgs > span {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 20px 0;
+    width: 50%;
+}
+
+.list-imgs > span > img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px;
+}
