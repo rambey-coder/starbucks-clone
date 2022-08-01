@@ -63,3 +63,72 @@
 .reward-container button:hover {
     background: #158059d3;
 }
+
+.get-started {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.get-started > h2 {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.get-started > p {
+    color: #272727;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.reward-tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.flex {
+    width: 30%;
+}
+
+.flex > div {
+    border: 2px solid #158058;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.flex > div > p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #158058;
+}
+
+.flex > h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #272727;
+}
+
+.flex > p {
+    color: #272727;
+    font-size: 16px;
+}
+
+.flex > p > span {
+    color: #158058;
+    text-decoration: underline;
+    text-decoration-color: #158058;
+    cursor: pointer;
+}
