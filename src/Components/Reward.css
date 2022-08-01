@@ -1,0 +1,24 @@
+.nav-menu {
+    background: #1E3932;
+    padding: 12px 0;
+}
+
+.nav-menu div {
+    width: 75%;
+    margin: auto;
+}
+
+.nav-menu div h2 {
+    margin: 0;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
+.reward-container {
+    background: url(/public/assets/bg-hero-desktop.webp);
+    background-color: #D4E9E2;
+    background-size: 100rem;
+    background-repeat: no-repeat;
+    background-position: 46px 0;
+}
