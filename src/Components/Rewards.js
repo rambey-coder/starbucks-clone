@@ -10,7 +10,12 @@ const Rewards = () => {
     </div>
     </div>
     <div className="reward-container">
-      <h1>Lorem</h1>
+      <div>
+      <h1>FREE COFFEE <br /> IS A TAP AWAY</h1>
+      <p>Join now to start earning Rewards.</p>
+      <button>Join now</button>
+      <p>Or join in the app for the best experience</p>
+      </div>
     </div>
     </>
   )

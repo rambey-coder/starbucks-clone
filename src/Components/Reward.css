@@ -1,6 +1,7 @@
 .nav-menu {
     background: #1E3932;
     padding: 12px 0;
+    filter: drop-shadow(0px 1px 3px #1E3932);
 }
 
 .nav-menu div {
@@ -18,7 +19,47 @@
 .reward-container {
     background: url(/public/assets/bg-hero-desktop.webp);
     background-color: #D4E9E2;
-    background-size: 100rem;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: 46px 0;
+    background-position: -180px 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.reward-container div {
+    width: 90%;
+    margin: auto;
+}
+
+.reward-container h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 8rem;
+    color: #212423;
+}
+
+.reward-container p {
+    font-size: 22px;
+    /* margin-top: 3rem; */
+    color: #212423;
+}
+
+.reward-container button {
+    background-color: #158058;
+    border-radius: 50px;
+    outline: 0;
+    border: 0;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .4s ease;
+}
+
+.reward-container button:hover {
+    background: #158059d3;
 }
