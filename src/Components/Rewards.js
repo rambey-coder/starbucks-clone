@@ -46,6 +46,97 @@ const Rewards = () => {
         </div>
       </div>
     </div>
+
+    <div className="favorites">
+      <div className="get-fav">
+        <h1>Get your favorites for free</h1>
+        <div className="tab-btn">
+          <div className="btn-tab">
+            <p>25</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div className="btn-tab">
+            <p>50</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div className="btn-tab">
+            <p>150</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div className="btn-tab">
+            <p>200</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div className="btn-tab">
+            <p>400</p>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div className="fav-container">
+      <div className="fav-content">
+        <div>
+          <div>
+            <img src="./assets/customize-drink.webp" alt="hot-coffee-tea" />
+          </div>
+          <div>
+            <h3>Customize your drink</h3>
+            <p>Make your drink just right with an extra espresso shot, dairy substitute or a dash of your favorite syrup.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="fav-content">
+        <div>
+          <div>
+            <img src="./assets/hot-coffee-tea.webp" alt="hot-coffee-tea" />
+          </div>
+          <div>
+            <h3>Brewed hot coffee, bakery item or hot tea</h3>
+            <p>Pair coffee cake or an almond croissant with your fresh cup of hot brew.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="fav-content">
+        <div>
+          <div>
+            <img src="./assets/hand-crafted.webp" alt="hot-coffee-tea" />
+          </div>
+          <div>
+            <h3>Handcrafted drink, hot breakfast or parfait</h3>
+            <p>Have a really good morning with a breakfast sandwich, oatmeal or your favorite drink.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="fav-content">
+        <div>
+          <div>
+            <img src="./assets/protein-box.webp" alt="hot-coffee-tea" />
+          </div>
+          <div>
+            <h3>Salad, sandwich or protein box</h3>
+            <p>Nourish your day with a hearty Chipotle Chicken Wrap or Eggs & Cheese Protein Box.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="fav-content">
+        <div>
+          <div>
+            <img src="./assets/home-coffee.webp" alt="hot-coffee-tea" />
+          </div>
+          <div>
+            <h3>Select merchandise or at-home coffee</h3>
+            <p>Take home a signature cup, a bag of coffee or your choice of select coffee accessories</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
     </>
   )
 }
