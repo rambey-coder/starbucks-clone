@@ -49,11 +49,12 @@ const Rewards = () => {
 
     <div className="favorites">
       <div className="get-fav">
+        <div>
         <h1>Get your favorites for free</h1>
-        <div className="tab-btn">
-          <div className="btn-tab">
+        <div className="tab-btn-container">
+          <div className="btn-tab active">
             <p>25</p>
-            <i class="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
           </div>
           <div className="btn-tab">
             <p>50</p>
@@ -61,22 +62,23 @@ const Rewards = () => {
           </div>
           <div className="btn-tab">
             <p>150</p>
-            <i class="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
           </div>
           <div className="btn-tab">
             <p>200</p>
-            <i class="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
           </div>
           <div className="btn-tab">
             <p>400</p>
-            <i class="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
           </div>
+        </div>
         </div>
       </div>
 
       <div className="fav-container">
       <div className="fav-content">
-        <div>
+        <div className='active'>
           <div>
             <img src="./assets/customize-drink.webp" alt="hot-coffee-tea" />
           </div>
