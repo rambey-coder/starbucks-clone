@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Reward.css'
 
 const Rewards = () => {
+  const [click, setClick] = useState('')
+
+  const handleClick = (i) => {
+    setClick(i)
+  }
   return (
     <>
     <div className="nav-menu">
@@ -52,23 +57,23 @@ const Rewards = () => {
         <div>
         <h1>Get your favorites for free</h1>
         <div className="tab-btn-container">
-          <div className="btn-tab active">
+          <div className={click === 0 ? "btn-tab active" : 'btn-tab'} onClick={() => {handleClick(0)}}>
             <p>25</p>
             <i className="fa-solid fa-star"></i>
           </div>
-          <div className="btn-tab">
+          <div className={click === 1 ? "btn-tab active" : 'btn-tab'} onClick={() => {handleClick(1)}}>
             <p>50</p>
-            <i class="fa-solid fa-star"></i>
+            <i className="fa-solid fa-star"></i>
           </div>
-          <div className="btn-tab">
+          <div className={click === 2 ? "btn-tab active" : 'btn-tab'} onClick={() => {handleClick(2)}}>
             <p>150</p>
             <i className="fa-solid fa-star"></i>
           </div>
-          <div className="btn-tab">
+          <div className={click === 3 ? "btn-tab active" : 'btn-tab'} onClick={() => {handleClick(3)}}>
             <p>200</p>
             <i className="fa-solid fa-star"></i>
           </div>
-          <div className="btn-tab">
+          <div className={click === 4 ? "btn-tab active" : 'btn-tab'} onClick={() => {handleClick(4)}}>
             <p>400</p>
             <i className="fa-solid fa-star"></i>
           </div>
@@ -78,7 +83,7 @@ const Rewards = () => {
 
       <div className="fav-container">
       <div className="fav-content">
-        <div className='active'>
+        <div className={click === 0 ? "active" : ''} onClick={() => {handleClick(0)}}>
           <div>
             <img src="./assets/customize-drink.webp" alt="hot-coffee-tea" />
           </div>
@@ -90,7 +95,7 @@ const Rewards = () => {
       </div>
 
       <div className="fav-content">
-        <div>
+        <div className={click === 1 ? "active" : ''} onClick={() => {handleClick(1)}}>
           <div>
             <img src="./assets/hot-coffee-tea.webp" alt="hot-coffee-tea" />
           </div>
@@ -102,7 +107,7 @@ const Rewards = () => {
       </div>
 
       <div className="fav-content">
-        <div>
+        <div className={click === 2 ? "active" : ''} onClick={() => {handleClick(2)}}>
           <div>
             <img src="./assets/hand-crafted.webp" alt="hot-coffee-tea" />
           </div>
@@ -114,7 +119,7 @@ const Rewards = () => {
       </div>
 
       <div className="fav-content">
-        <div>
+        <div className={click === 3 ? "active" : ''} onClick={() => {handleClick(3)}}>
           <div>
             <img src="./assets/protein-box.webp" alt="hot-coffee-tea" />
           </div>
@@ -126,7 +131,7 @@ const Rewards = () => {
       </div>
 
       <div className="fav-content">
-        <div>
+        <div className={click === 4 ? "active" : ''} onClick={() => {handleClick(4)}}>
           <div>
             <img src="./assets/home-coffee.webp" alt="hot-coffee-tea" />
           </div>

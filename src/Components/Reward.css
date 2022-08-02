@@ -142,6 +142,10 @@
     filter: drop-shadow(2px 2px 5px #F1F8F6);
 }
 
+.get-fav > div > h1 {
+    font-weight: 600;
+}
+
 .get-fav > div {
     width: 50%;
     margin: auto;
@@ -203,6 +207,7 @@
 
 .fav-content > div.active {
     display: flex;
+    transition: all .6s ease-in;
 }
 
 .fav-content > div > div {
