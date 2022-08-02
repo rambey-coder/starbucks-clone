@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Reward.css'
 
 const Rewards = () => {
-  const [click, setClick] = useState('')
+  const [click, setClick] = useState(0)
 
   const handleClick = (i) => {
     setClick(i)
